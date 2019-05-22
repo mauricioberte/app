@@ -12,7 +12,7 @@
 				<div class="page-header text-center">
 					<h1>Login</h1>
 				</div>
-				<form action="dashboard.html" method="post" class="form-validate" >
+				<form action="dashboard.php" method="post" class="form-validate" >
 					<div class="form-group">
 						<div class="control-label">
 							<label id="username-lbl" for="username" class="required invalid">Usuário<span class="star"> *</span></label>
