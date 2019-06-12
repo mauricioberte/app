@@ -1,4 +1,6 @@
 <?php 
+$menu_ativo ="imc";
+
 include('cabecalho.php');
 $peso = $_POST['peso'];
 $altura = $_POST['altura'];
