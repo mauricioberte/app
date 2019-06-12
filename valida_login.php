@@ -11,10 +11,7 @@
 					echo "senha inválida";
 				}
 			}else{				
-				echo "usuario inválido";
+				echo "usuário inválido";
 			}
 		}
-
-
-
 	?>
