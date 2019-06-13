@@ -1,3 +1,5 @@
+<?php isset($menu_ativo); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -40,7 +42,8 @@
 								<li><a href="#">Produto</a></li>
 							</ul>
 						</li>
-						<li <?php if(isset($menu_ativo)=="imc"){ echo 'class="active"';} ?> ><a href="imc.php">IMC</a></li>
+						<li <?php if($menu_ativo=="imc"){ echo 'class="active"';} ?> ><a href="imc.php">IMC</a></li>
+						<li <?php if($menu_ativo=="combustivel"){ echo 'class="active"';} ?> ><a href="combustivel.php">Combustível</a></li>
 					</ul>
 					</div><!--/.nav-collapse -->
 				</nav>
