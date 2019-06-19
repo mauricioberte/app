@@ -44,6 +44,7 @@
 						</li>
 						<li <?php if($menu_ativo=="imc"){ echo 'class="active"';} ?> ><a href="imc.php">IMC</a></li>
 						<li <?php if($menu_ativo=="combustivel"){ echo 'class="active"';} ?> ><a href="combustivel.php">Combustível</a></li>
+						<li <?php if($menu_ativo=="notas"){ echo 'class="active"';} ?> ><a href="notas.php">Notas</a></li>
 					</ul>
 					</div><!--/.nav-collapse -->
 				</nav>
